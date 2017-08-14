@@ -1,6 +1,5 @@
 def firstNotRepeatingCharacter(s):
     visited = set()
-    repeats = set()
     deleted = set()
     for c in s:
         if c in visited:
